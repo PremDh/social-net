@@ -1,3 +1,5 @@
+//This class initializes a matrix and graph which depicts friend relationships - who is friends with whom.
+//Implementation allows users who signup to see mutual friends on other user's profile when logged into the network.
 package testScreen;
 import java.util.LinkedList;
 
