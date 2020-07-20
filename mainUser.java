@@ -1,4 +1,4 @@
-/* window depicts user's own personal profile.
+/* Window depicts user's own personal profile.
  * Here they can edit their bio, current status, and see their list of friends.
  * 
  */
@@ -117,7 +117,7 @@ public class mainUser {
 		}
 		});
 		
-		//button to navigate user back to landing page and news feed.
+		//Button to navigate user back to landing page and news feed.
 		Button btnBackToNews = new Button(shell, SWT.NONE);
 		btnBackToNews.addMouseListener(new MouseAdapter() {
 			@Override
@@ -130,6 +130,7 @@ public class mainUser {
 		formToolkit.adapt(btnBackToNews, true, true);
 		btnBackToNews.setText("Back to News Feed");
 		
+		//initializes window upon execution
 		shell.open();
 		shell.layout();
 		while (!shell.isDisposed()) {
