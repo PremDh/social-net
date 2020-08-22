@@ -93,12 +93,13 @@ public class mainUser {
 		
 		
 		
-		
+		//text field to add bio/description to user's personal profile.
 		Label lblAddBio = new Label(shell, SWT.NONE);
 		lblAddBio.setBounds(30, 43, 55, 15);
 		formToolkit.adapt(lblAddBio, true, true);
 		lblAddBio.setText("Add Bio");
 		
+		//text field to update their current status on the network.
 		Label lblUpdateStatu = new Label(shell, SWT.NONE);
 		lblUpdateStatu.setBounds(30, 108, 97, 15);
 		formToolkit.adapt(lblUpdateStatu, true, true);
